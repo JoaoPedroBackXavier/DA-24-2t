@@ -1,3 +1,0 @@
-github com material --> https://github.com/LeoSouzaSenac/UC1
-
-    <script src="./index.js" defer></script>
