@@ -22,5 +22,5 @@ if(isNaN(GrausC)){
 //   o algoritmo deu alert porque eu coloquei isNaN() 
 //   então se o usuario colocar algo que não seja numero, o isNaN() vai dar true
 //   falhou porque eu nao coloquei para a entrada ser convertida para numero Real antes de calcular
-//   dai ele acabou virando NaN e deu o alert
+//   dai ele acabou virando NaN e deu o alert.
 //
