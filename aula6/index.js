@@ -43,7 +43,7 @@
 const N1 = Number(prompt('digite o N1'))
 const N2 = Number(prompt('digite o N2'))
 
-alert(`o primeiro numero é igual ao segundo? ${N1 === N2}\n o primeiro numero é diferente do segundo numero? ${N1 !== N2}\n o primeiro numero é maior que o segundo? ${N1 > N2}\n o primeiro numero é menor que o segundo? ${N1 < N2}`)
+alert(`o primeiro numero é igual ao segundo? ${N1 === N2}\n o primeiro numero é diferente do segundo numero? ${N1 !== N2}\n o primeiro numero é maior que osegundo? ${N1 > N2}\n o primeiro numero é menor que o segundo? ${N1 < N2}`);
 
 
 
