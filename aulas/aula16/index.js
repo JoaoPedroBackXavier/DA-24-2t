@@ -129,5 +129,7 @@
 //         listar(bolsa)
 //     }else if(r == 3){
 //         listar(bolsa)
+//     }else{
+//         cond1=false
 //     }
 // }
