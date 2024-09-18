@@ -48,20 +48,20 @@
 // 2
 // a
 
-// let trabalhador = {
-//     nome: "zé",
-//     idade: 35,
-//     trabalho: 'predeiro',
-// }
-// let trabalhadorPior = {
-//     nome: "fulano",
-//     idade: 47,
-//     trabalho: "servente de predeiro",
-// }
+let trabalhador = {
+    nome: "zé",
+    idade: 35,
+    trabalho: 'predeiro',
+}
+let trabalhadorPior = {
+    nome: "fulano",
+    idade: 47,
+    trabalho: "servente de predeiro",
+}
 
-// function pulverizadorDeTrabalhador(trabalhador){
-//     return [trabalhador.nome, trabalhador["nome"].length(), trabalhador.idade, trabalhador.trabalho, trabalhador["trabalho"].length()]
-// }
+function pulverizadorDeTrabalhador(trabalhador){
+    return [trabalhador.nome, trabalhador["nome"].length(), trabalhador.idade, trabalhador.trabalho, trabalhador["trabalho"].length()]
+}
 
 // 3
 // a
