@@ -1,8 +1,9 @@
+// apenas joão pedro back xavier
 let historico = ""
 let aux1 = true
-let aux2 = true
-let aux3 = ""
-let r = ""
+    let aux2 = true
+    let aux3 = ""
+    let r = ""
 let r2 = ""
 let r3 = 0
 let r4 = ""
