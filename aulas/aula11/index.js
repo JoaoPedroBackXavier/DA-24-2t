@@ -2,19 +2,17 @@ let tipoDeJogo = prompt("tipo de jogo:\n internacional(in)\n domestico(do)\n")
 let etapaDeJogo = prompt("etapa de jogo:\n semifinais(SF)\n decisão do 3o lugar(dt)\n final(FL)")
 let categoria = prompt("categoria (1, 2, 3 ou 4)")
 let quantidadeDeIngressos = Number(prompt("quantidade de ingressos"))
+// declaração de variaveis que serão usadas para determinar o preço final
 
 let valorTotal = 0
 
-function listarArray(array){
-    for(elemento of array){
-        let aux = aux + elemento + '\n'
-    }
-}
-
 if(etapaDeJogo == "sf"){
+// verifica a etapa de jogo
 
     if(categoria == "1"){
+//  verifica a categoria
         valorTotal = 1320
+// valor total que sera atualizado depois
     }else if(categoria == "2"){
         valorTotal = 880
     }else if(categoria == "3"){
@@ -22,6 +20,7 @@ if(etapaDeJogo == "sf"){
     }else if(categoria == "4"){
         valorTotal = 220
     }else{
+//  caso o usuario digitou errado:
         alert("erro de digitação")
     }
 
@@ -57,12 +56,14 @@ if(etapaDeJogo == "sf"){
     alert("erro de digitação")
 }
 
-if(!(isNaN(quantidadeDeIngressos)))
 valorTotal = valorTotal*quantidadeDeIngressos
+// faz o preço ser multiplicado pela quantidade de ingressos
 
 if(tipoDeJogo == "in"){
     valorTotal = valorTotal/5.65
+// converte para dolar
     alert(`o valor total deu ${Math.floor(valorTotal)} dolares para etapa ${etapaDeJogo} e categoria ${categoria}`)
+// math.floor faz o valor arredondar
 }else if(tipoDeJogo == "do"){
     alert(`o valor total deu ${Math.floor(valorTotal)} reaols para etapa ${etapaDeJogo} e categoria ${categoria}`)
 }else{

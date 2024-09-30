@@ -157,28 +157,3 @@ while (aux){
 
 
 
-
-
-
-// jogo da velha -----------------------------------------------------------------------------------------------------------
-// soma = 0
-
-// function verificarlinha(linha,matrizz){
-//     if((matrizz[linha][0] == 1) && (matrizz[linha][1] == 1) && (matrizz[linha][2] == 1)){
-//         return true
-//     }
-// }
-
-// let matriz = [
-//     [0,0,0],
-//     [0,0,0],
-//     [0,0,0]
-// ]
-
-// for(let i=0;i<matriz.length;i++){
-
-//     for(let j=0; j<matriz[i].length; j++){
-//         soma += matriz[i][j]
-//     }
-// }
-// alert(soma)
