@@ -1,7 +1,7 @@
 let personagens = [
-    {nome:"link",      coracoes:5,  forca:2, defesa:3},
-    {nome:"Ganondorf", coracoes:15, forca:8, defesa:5},
-    {nome:"zelda",     coracoes:1,  forca:1, defesa:1}
+    {nome:"link",      coracoes:5 ,  forca:2, defesa:3},
+    {nome:"Ganondorf", coracoes:15, forca:8 , defesa:5},
+    {nome:"zelda",     coracoes:1 ,  forca:1, defesa:1}
 ]
 // array de personagens
 
@@ -44,8 +44,14 @@ function validarArmas(){
 // verifica se arma tem propriedade nome
             if("dano" in arma){
                 if("alcance" in arma){
-                    if(arma.dano > 0){}else{
+                    if(arma.dano > 0){
 // verifica se arma tem dano maior que 0
+                        if((arma.nome == "master sword")||(arma.nome == "bow")||(arma.nome == "hammer")){
+
+                        }else{
+                            mensagemDeErro(`a arma de nome ${arma.nome} tem nome invalido`) 
+                            return false }
+                    }else{
                         mensagemDeErro(`a arma de nome ${arma.nome} tem dano invalido`) 
                         return false        
                     }
