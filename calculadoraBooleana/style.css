@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start; /* Alinha à esquerda */
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: absolute;
+    left: 100px;
+    margin: 0; /* Remove a margem padrão do body */
+}
+
+#container {
+    display: flex;
+    flex-direction: row; /* Alinha as duas colunas horizontalmente */
+    gap: 30px; /* Espaço entre as duas sequências */
+}
+
+#switches1, #switches2 {
+    display: flex;
+    flex-direction: column; /* Alinha os interruptores verticalmente */
+    gap: 20px; /* Espaço entre os interruptores */
+}
+
+.switch {
+    position: relative;
+}
+
+.switch input {
+    display: none;
+}
+
+.switch label {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.switch label:before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+}
+
+.switch input:checked + label {
+    background-color: #4CAF50;
+}
+
+.switch input:checked + label:before {
+    transform: translateX(30px);
+}
