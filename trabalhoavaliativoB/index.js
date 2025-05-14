@@ -10,7 +10,7 @@ let r3 = 0
 let r4 = ""
 // declaração de variaveis
 
-let personagens = []
+let personagens = [{id:1,nome:"Pippin",classe:"rogue",nivel:1,hp:5,habilidade:"enxer o saco"},{id:2,nome:"Merry",classe:"rogue",nivel:1,hp:5,habilidade:"comer"}]
 // declaraçoes de arrays
 
 function listar(array){
